@@ -1,0 +1,14 @@
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\bin\Debug\net10.0\Hamburgueria.exe
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\bin\Debug\net10.0\Hamburgueria.deps.json
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\bin\Debug\net10.0\Hamburgueria.runtimeconfig.json
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\bin\Debug\net10.0\Hamburgueria.dll
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\bin\Debug\net10.0\Hamburgueria.pdb
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.AssemblyInfoInputs.cache
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.AssemblyInfo.cs
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.csproj.CoreCompileInputs.cache
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.dll
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\refint\Hamburgueria.dll
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.pdb
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\Hamburgueria.genruntimeconfig.cache
+C:\Users\Asaaf\RiderProjects\Trabalho\Hamburgueria\obj\Debug\net10.0\ref\Hamburgueria.dll
