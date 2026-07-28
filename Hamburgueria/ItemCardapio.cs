@@ -10,28 +10,24 @@ public class ItemCardapio
     public double PrecoBase { get; private set; }
     public bool EstaDisponivel { get; private set; }
 
-    public ItemCardapio(string nome, string categoria, double precoBase)
+    public ItemCardapio()
     {
-        this.Id = new Random().Next();
-        this.Nome = nome;
-        this.Categoria = categoria;
-        if(precoBase > 0) this.PrecoBase = precoBase;
-        else
-        {
-            Console.WriteLine("Digite um valor maior que Zero: ");
-            this.PrecoBase = Convert.ToDouble(Console.ReadLine());
-        }
+        this.Id = new Random().Next(0,100);
+        this.EstaDisponivel = true;
     }
 
-    public void CadastrarItemCardapio()
+    public double DefinirPrecoBase()
     {
-        Console.WriteLine("Digite o nome do Item: ");
-        this.Nome = Console.ReadLine();
-        Console.WriteLine("Digite o categoria do Item: ");
-        this.Categoria = Console.ReadLine();
-        Console.WriteLine("Digite o valor do Item: ");
         if (double.TryParse(Console.ReadLine(), out double valor)) this.PrecoBase = valor;
-        else Console.WriteLine("Digite um valor valido! ");
+        else if (valor > 0) this.PrecoBase = valor;
+        else Console.WriteLine("Digite um valor válido e maior que Zero: ");
+        return this.PrecoBase;
+    }
+    
+    public void ExcluirItemCardapio()
+    {
+        Console.WriteLine("Digite o codigo do Item: ");
+        int.TryParse(Console.ReadLine(), out int codigo);
     }
     
     public bool PausarVendas()
