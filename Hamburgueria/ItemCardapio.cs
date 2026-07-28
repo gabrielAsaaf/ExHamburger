@@ -42,7 +42,7 @@ public class ItemCardapio
     
     public double AplicarDesconto(double descPorcent)
     {
-        if (descPorcent > 0 & descPorcent <= 30)
+        if (descPorcent > 0 && descPorcent <= 30)
         {
             this.PrecoBase -= this.PrecoBase * (descPorcent / 100);
         }
